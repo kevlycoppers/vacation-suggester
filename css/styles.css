@@ -25,15 +25,10 @@
 #food {
   width: 20%;
 }
-#match1 {
+#match1, #match2, #match3, #match4 {
   display: none;
 }
-#match2 {
-  display: none;
-}
-#match3 {
-  display: none;
-}
-#match4 {
+
+.link {
   display: none;
 }
