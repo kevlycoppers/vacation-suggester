@@ -9,7 +9,7 @@
 .footer {
   background-color: rgba(219, 219, 219, 0.3);
 }
-.c-wrapper {
+.carousel {
   width: 70%;
   margin: auto;
 }
@@ -25,6 +25,15 @@
 #food {
   width: 20%;
 }
-#match {
+#match1 {
+  display: none;
+}
+#match2 {
+  display: none;
+}
+#match3 {
+  display: none;
+}
+#match4 {
   display: none;
 }
