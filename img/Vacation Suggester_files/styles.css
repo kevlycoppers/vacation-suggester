@@ -7,19 +7,14 @@
   text-shadow: rgba(72, 70, 70, 0.8) 0px 0px 12px;
 }
 
-
 #vacation-type {
   width: 40%;
 }
 
-#zone, #activities, #self {
+#zone, #activities {
   width: 30%;
 }
 
 #food {
   width: 20%;
-}
-
-#match {
-  display: none;
 }
