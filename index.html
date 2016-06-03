@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
-    <script src="js/jquery-1.12.4/js"></script>
+    <script src="js/jquery-1.12.4.js"></script>
     <script src="js/script.js"></script>
     <title>Vacation Suggester</title>
   </head>
@@ -35,7 +35,7 @@
             <select class="form-control" id="zone">
               <option>Tropical</option>
               <option>Tundra</option>
-              <option>Either</option>
+              <option>Neither</option>
             </select>
           </div>
           <div class="form-group">
@@ -52,7 +52,7 @@
             <select class="form-control" id="food">
               <option>American</option>
               <option>Vegan</option>
-              <option>Europian</option>
+              <option>European</option>
               <option>Asian</option>
             </select>
           </div>
@@ -65,8 +65,11 @@
               <option>Polite</option>
             </select>
           </div>
+          <button type="submit" class="btn btn-success">Submit</button>
         </form>
       </div>
+
+      <hr>
       <div id="match">
         <h2>You're going to <span class="vic"></span>!</h2>
       </div>
