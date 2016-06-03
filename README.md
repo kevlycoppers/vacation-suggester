@@ -10,6 +10,7 @@ Uses input data from the user to find the location I think they should stay.
 ## Setup/Installation Requirements
 
 * Clone from git hub
+* Or find on ghpages at kevlycoppers.github.io/vacation-suggester/
 * Run HTML
 * Take Quiz
 * ???
