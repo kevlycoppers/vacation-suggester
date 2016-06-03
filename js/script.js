@@ -23,7 +23,6 @@ $(document).ready(function() {
     $("#match1").show();
     $(".vic1").text(vic);
     $(".link").show();
-    $(".link").link(vic);
 
     event.preventDefault();
   });
