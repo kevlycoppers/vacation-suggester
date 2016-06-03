@@ -1,3 +1,6 @@
+body {
+  padding: 70px
+}
 .jumbotron {
   background-image: url(../img/fiji-island.jpg);
   background-size: cover;
@@ -8,10 +11,6 @@
 }
 .footer {
   background-color: rgba(219, 219, 219, 0.3);
-}
-.carousel {
-  width: 70%;
-  margin: auto;
 }
 #footer-text {
   text-align: center;
@@ -25,7 +24,7 @@
 #food {
   width: 20%;
 }
-#match1, #match2, #match3, #match4 {
+#match1 {
   display: none;
 }
 

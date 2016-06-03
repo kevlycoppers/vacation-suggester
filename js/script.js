@@ -11,19 +11,19 @@ $(document).ready(function() {
       vic = "Fiji";
     }
     else if (vacation === "Busy and full of activity"  && (zone === "Tropical" || zone === "Tundra" || zone === "Neither") && activities === "Racing" && food === "American" && (self === "Upbeat" || self === "Polite" || self === "Outgoing")) {
-      vic = "Virginia International Raceway"
+      vic = "Virginia International Raceway";
     }
     else if (vacation === "Free and adventurous" && zone === "Tundra" && (activities === "Hiking" || activities === "Swimming") && food === "European" && (self === "Shy" || self === "Polite" || self === "Outgoing")) {
-      vic = "The Island of Iceland"
+      vic = "The Island of Iceland";
     }
     else {
-      vic = "The Island of Hawaii"
+      vic = "The Island of Hawaii";
     }
 
     $("#match1").show();
-    $(".vic1").text(vic)
+    $(".vic1").text(vic);
     $(".link").show();
-    $(".link").link(vic)
+    $(".link").link(vic);
 
     event.preventDefault();
   });
